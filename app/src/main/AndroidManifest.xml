@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medicloud">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Userlog_view"></activity>
+        <activity android:name=".Contact" />
+        <activity android:name=".Patient_view" />
+        <activity android:name=".Show_patient_details" />
+        <activity android:name=".Edit_delete_user" />
+        <activity android:name=".ForgotPass" />
+        <activity android:name=".Feedback_view" />
+        <activity android:name=".Add_feeedback" />
+        <activity android:name=".Pharmacist" />
+        <activity android:name=".Pharmacy_login" />
+        <activity android:name=".Doctor_login" />
+        <activity android:name=".Admin" />
+        <activity android:name=".Admin_login" />
+        <activity android:name=".EditDeletePatient" />
+        <activity android:name=".Add_patient" />
+        <activity android:name=".Doctor_main" />
+        <activity android:name=".Online_pharmacy" />
+        <activity android:name=".Tobacco_usage" />
+        <activity android:name=".diet" />
+        <activity android:name=".Physical_activity" />
+        <activity android:name=".BMI_calculator" />
+        <activity android:name=".Health_tips" />
+        <activity android:name=".Main_page" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

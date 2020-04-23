@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/about">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEDI CLOUD"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginTop="45dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We are here for your Care"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="serif"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Administration login"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:background="#7E89FF"/>
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor/Nurse Login"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:background="#5462FF" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pharmacist Login"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:background="#051AFF" />
+
+        <Button
+            android:id="@+id/logbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patient Login"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:layout_marginLeft="15dp"
+
+            android:layout_marginRight="15dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:background="#020C7A"/>
+    </LinearLayout>
+
+</RelativeLayout>

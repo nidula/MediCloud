@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1031163133291",
+    "firebase_url": "https://medi-cloud-e5843.firebaseio.com",
+    "project_id": "medi-cloud-e5843",
+    "storage_bucket": "medi-cloud-e5843.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031163133291:android:b0aeff94bb4696bbb0202e",
+        "android_client_info": {
+          "package_name": "com.example.medicloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031163133291-cdhbdrma0j8n4nof25427k90bhab3nb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa8dDXuHcdWqpGW8npvSK3MM8DRbccfGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031163133291-cdhbdrma0j8n4nof25427k90bhab3nb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

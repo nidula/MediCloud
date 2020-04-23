@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tobacco_usage"
+    android:background="@drawable/champagne">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Avoiding tobacco or taking proven measures to quit, are among the surest ways for people to avoid many illnesses and, instead, take the road to good health."
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In fact, there are immediate and long-term health benefits of quitting for all tobacco users, including lower blood pressure."
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/drug_poster" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here are some key points on avoiding the harms of tobacco use:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Most tobacco users who are aware of the dangers of tobacco want to quit. Counselling and medication more than doubles the chance that someone who uses tobacco and tries to quit will succeed."
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:textColor="#fff"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	If you are a tobacco user wanting to quit, it is essential to understand the importance of doing so for your own health and your family."
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:textColor="#fff"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Then, you must be confident that you can quit - many people have done so."
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:textColor="#fff"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	If needed, seek support from health professionals to quit. There are a range of things people can do, from calling a quit line and accessing online material to attending a cessation clinic."
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:textColor="#fff"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Practical tips to help tobacco users deal with tobacco cravings include delay, drinking water, deep breathing and physical activity."
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="serif"
+                android:textColor="#fff"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
